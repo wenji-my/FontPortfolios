@@ -1,0 +1,118 @@
+.googlefont {
+    color: white;
+    font-family: 'Risque', serif;
+}
+.header {
+    margin-top: 20px;
+}
+.logo {
+    max-height: 100px;
+    display: inline-block;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.custom-nav {
+    color: white;
+}
+.feature {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: black;
+}
+.feature:hover {
+    box-shadow: 0 0 100px #000;
+    transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    -webkit-transition: all 100ms ease-in;
+    -o-transition: all 100ms ease-in;
+    transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    cursor: pointer;
+}
+.devsite-footer-linkboxes-with-sites {
+    color: #fff;
+    background-color: #272636;
+    padding: 2em;
+}
+.nav>li>a:hover, .nav>li>a:focus{
+    color: white;
+    background-color: rgba(231, 231, 231, 0.2);
+}
+.content {
+    background: url("../images_src/citylights.png") no-repeat 0 100%,
+    url("../images_src/skyline.png") no-repeat 0 88%;
+}
+.scrollUp {
+    position: fixed;
+    background-color: #777;
+    color: #eee;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    bottom: 20px;
+    right: 20px;
+    overflow: hidden;
+    width: 46px;
+    height: 46px;
+    border: none;
+    opacity: .6;
+    visibility: hidden;
+}
+/*显示返回顶部*/
+.cd-is-visible {
+    visibility: visible;
+    opacity: 0.6;
+}
+.foot_link {
+    padding: 0 10px 0 0;
+}
+nav>.container-fluid {
+    padding: 0;
+}
+canvas {
+    position: absolute;
+    z-index: -1;
+}
+h2 {
+    margin-left: 5px;
+}
+ul>li {
+    float: left;
+}
+#sky {
+    background-image: -ms-linear-gradient(top, #000000 0%, #011C53 100%);
+    background-image: -moz-linear-gradient(top, #000000 0%, #011C53 100%);
+    background-image: -o-linear-gradient(top, #000000 0%, #011C53 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000000), color-stop(1, #011C53));
+    background-image: -webkit-linear-gradient(top, #000000 0%, #011C53 100%);
+    background-image: linear-gradient(to bottom, #000000 0%, #011C53 100%);
+    background-image: -ms-linear-gradient(top, #020103 0%, #0D0F23 50%, #17243E 100%);
+    background-image: -moz-linear-gradient(top, #020103 0%, #0D0F23 50%, #17243E 100%);
+    background-image: -o-linear-gradient(top, #020103 0%, #0D0F23 50%, #17243E 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #020103), color-stop(0.5, #0D0F23), color-stop(1, #17243E));
+    background-image: -webkit-linear-gradient(top, #020103 0%, #0D0F23 50%, #17243E 100%);
+    background-image: linear-gradient(to bottom, #020103 0%, #0D0F23 50%, #17243E 100%);
+}
+@media screen and (min-width: 992px) {
+    .scrollUp {
+        bottom: 100px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    ul>li{
+        float: none;
+    }
+}

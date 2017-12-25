@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Beautiful Portfolios</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Risque">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rancho&effect=fire|fire-animation|ice|neon|outline|shadow-multiple|3d-float|anaglyph">
+
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body id="sky">
+<canvas id="stars"></canvas>
+<div class="content">
+        <div class="container">
+        <header>
+            <div class="row header">
+                <div class="col-md-6 col-xs-6">
+                    <h1 class="font-effect-neon">Welcome To My Portfolios</h1>
+                    <h4 class="font-effect-fire-animation">Night Cat</h4>
+                </div>
+                <div class="col-md-6 col-xs-6 text-right">
+                    <img class="logo img-responsive" src="images/logo.svg" alt="logo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+        </header>
+        <!--导航栏-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav">
+                        <li><a class="font-effect-fire" href="#">Portfolios</a></li>
+                        <li><a class="font-effect-fire" href="#">Harajuku Star</a></li>
+                        <li><a class="font-effect-fire" href="#">Resplendent Galaxy</a></li>
+                        <li><a class="font-effect-fire" href="#">Burning Sun</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <main>
+            <div class="row">
+                <div class="col-md-12">
+                    <!--Bootstrap 轮播（Carousel）插件-->
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- 轮播（Carousel）指标 -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- 轮播（Carousel）项目 -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <picture>
+                                    <source media="(min-width: 750px)"
+                                            srcset="images/earth-2000_large_2x.jpg 2x,images/earth-1600_large_1x.jpg 1x"
+                                            class="img-responsive">
+                                    <source media="(min-width: 500px)" srcset="images/earth-800_medium_.jpg"
+                                            class="img-responsive">
+                                    <img src="../letitsnow/images/earth-500_small_.jpg" alt="picture2" class="img-responsive">
+                                </picture>
+                                <!--<img src="images/sky-1600_large_1x.jpg" alt="" class="img-responsive">-->
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source media="(min-width: 750px)"
+                                            srcset="images/sky-2000_large_2x.jpg 2x,images/sky-1600_large_1x.jpg"
+                                            class="img-responsive">
+                                    <source media="(min-width: 500px)" srcset="images/sky-800_medium_.jpg"
+                                            class="img-responsive">
+                                    <img src="../letitsnow/images/sky-500_small_.jpg" alt="picture2" class="img-responsive">
+                                </picture>
+                            </div>
+                            <div class="item">
+                                <picture>
+                                    <source media="(min-width: 750px)"
+                                            srcset="images/Space-2000_large_2x.jpg 2x,images/Space-1600_large_1x.jpg"
+                                            class="img-responsive">
+                                    <source media="(min-width: 500px)" srcset="images/Space-800_medium_.jpg"
+                                            class="img-responsive">
+                                    <img src="../letitsnow/images/Space-500_small_.jpg" alt="picture2" class="img-responsive">
+                                </picture>
+                            </div>
+                        </div>
+                        <!-- 轮播（Carousel）导航 -->
+                        <a class="carousel-control left" href="#myCarousel"
+                           data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+
+                        <a class="carousel-control right" href="#myCarousel"
+                           data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="font-effect-fire-animation">Featured Work</h2>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-4">
+                        <div class="feature text-center">
+                            <picture>
+                                <source media="(min-width: 750px)"
+                                        srcset="images/star1-2000_large_2x.jpg 2x,images/star1-1600_large_1x.jpg"
+                                        class="img-responsive">
+                                <source media="(min-width: 500px)" srcset="images/star1-800_medium_.jpg"
+                                        class="img-responsive">
+                                <img src="images/star1-500_small_.jpg" alt="picture2" class="img-responsive">
+                            </picture>
+                            <h3 class="font-effect-ice">Harajuku Star</h3>
+                            <p>
+                                <a href="#">This is an empty link</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature text-center">
+                            <picture>
+                                <source media="(min-width: 750px)"
+                                        srcset="images/star2-2000_large_2x.jpg 2x,images/star2-1600_large_1x.jpg"
+                                        class="img-responsive">
+                                <source media="(min-width: 500px)" srcset="images/star2-800_medium_.jpg"
+                                        class="img-responsive">
+                                <img src="images/star2-500_small_.jpg" alt="picture1" class="img-responsive">
+                            </picture>
+                            <h3 class="googlefont">Resplendent Galaxy</h3>
+                            <p>
+                                <a href="#">This is an empty link</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature text-center">
+                            <picture>
+                                <source media="(min-width: 750px)"
+                                        srcset="images/sun-2000_large_2x.jpg 2x,images/sun-1600_large_1x.jpg"
+                                        class="img-responsive"/>
+                                <source media="(min-width: 500px)" srcset="images/sun-800_medium_.jpg"
+                                        class="img-responsive"/>
+                                <img src="images/sun-500_small_.jpg" alt="picture1" class="img-responsive">
+                            </picture>
+                            <h3 class="font-effect-fire">Burning Sun</h3>
+                            <p>
+                                <a href="#">This is an empty link</a>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        </main>
+    </div>
+        <footer class="devsite-footer-linkboxes-with-sites">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 text-center hidden-xs hidden-sm">
+                        Designed and built with all the love in the world by @mdo and @fat.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 text-center">
+                        <a class="foot_link" href="#" target="_top"><i class="fa fa-envelope fa-2x"></i></a>
+                        <a class="foot_link" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a class="foot_link" target="_blank" href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a class="foot_link" target="_blank" href="https://linkedin.com/"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+        </footer>
+
+</div>
+    <a class="scrollUp" href="#">
+        <i class="fa fa-angle-up"></i>
+    </a>
+<script src="js/scripts.js"></script>
+<script src="js/stars.js"></script>
+</body>
+</html>
